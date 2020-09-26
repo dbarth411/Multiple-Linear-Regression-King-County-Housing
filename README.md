@@ -14,14 +14,14 @@ Removing outliers and reducing our dependent variable brought down our r-squared
 
 ![Model2 Dist Plota](Images/Model2a.png)
 
-After removing outliers:
+After reducing our data to prices under 900k:
 
 ![Model2 Dist Plotb](Images/Model2b.png)
 
 ### 3. Model 3: Dealing with Multicollinearity
 Using a VIF (variance inflation factor), I removed two features that had a VIF using a VIF of 5 as my cutoff. After removing these features, the adjusted R squared stayed the same at .723, but there were still insignificant features.
 
-![Heatmap](Images/Model3.png)
+![Heatmap](Images/Model3a.png)
 
 ### 4. Model 4: Removing Insignificant Features
 After removing features with a p-value over 0.05, the adjusted r-squared stayed at .723. The next model deals with refining features by removing outliers.
