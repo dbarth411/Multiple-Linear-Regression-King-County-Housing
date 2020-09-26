@@ -1,6 +1,6 @@
 # Multiple Linear Regression: Predicting King County, WA, Housing Prices
 
-![Seattle](Images/Seattle.jpg)
+![Seattle](Images/Seattle.png)
 
 This project involes an iterative approach to building a multiple linear regression model to predict sale prices for houses in King County, WA, utilizing data of homes sold in 2014 and 2015. The first portion of this project is spent cleaning the data (provided by Flatiron School), engineering a few new features, and then building models, tweaking each model until a final model is built. Rather than using log transformations to normalize data, I decided to keep the model as interpretable as possible, using alternative techniques to normalize residuals. As a result, I narrowed down the data to predict homes under 900k, favoring predictions for middle class families.
 
